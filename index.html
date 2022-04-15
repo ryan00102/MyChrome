@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(style.css);
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2 id = "clock"></h2>
+    <form class = "hidden" id = "login-form">
+        <input required maxlength = "15" placeholder="What is your name?">
+    </form>
+    <h1 id = "greeting" class = "hidden"></h1>
+    <form id = "todo-form">
+        <input type = "text" required placeholder="Write a To do">
+    </form>
+    <ul id = "todo-list"></ul>
+    <div id = "quotes">
+        <span id = "quote"></span>
+        <span id = "author"></span>
+    </div>
+    <div id = "weather">
+        <span></span>
+        <span></span>
+    </div>
+    <script src = "greeting.js"></script>
+    <script src = "clock.js"></script>
+    <script src = "quote.js"></script>
+    <script src = "background.js"></script>
+    <script src = "todo.js"></script>
+    <script src = "weather.js"></script>
+</body>
+</html>

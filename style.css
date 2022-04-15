@@ -1,0 +1,105 @@
+.hidden{
+    display : none;
+}
+
+body{
+    display : block;
+    height: 100%;
+    margin : 0;
+    padding : 0;
+}
+#greeting,#clock{
+    font-family: 'Open Sans', sans-serif;
+}
+input{
+    background-color: transparent;
+    border-color : transparent;
+    border-bottom-color : white;
+    height : 30px;
+    width : 30%;
+}
+input:focus{
+    outline : none;
+    color : white;
+    text-align: center;
+    font-size: 24px;
+}
+input::placeholder{
+    color : white;
+    text-align: center;
+    font-size: 24px;
+}
+
+#clock{
+    display : flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height : 100vh;
+    font-size: 96px;
+    color : white;
+}
+#login-form{
+    position : absolute;
+    text-align : center;
+    margin : 0;
+    top : 55%;
+    left : 20%;
+    right : 20%;
+    font-size : 48px;
+    color : white;
+    font-family: 'Roboto', sans-serif;
+}
+#greeting{
+    position : absolute;
+    text-align : center;
+    margin : 0;
+    top : 55%;
+    left : 20%;
+    right : 20%;
+    font-size : 48px;
+    color : white;
+}
+#todo-form{
+    position : absolute;
+    text-align: center;
+    top : 62%;
+    left : 20%;
+    right : 20%;
+    font-size : 48px;
+    color : white;
+    font-family: 'Roboto', sans-serif;
+}
+#todo-list{
+    position : absolute;
+    text-align: center;
+    top : 70%;
+    left : 20%;
+    right : 20%;
+    font-size : 24px;
+    color : white;
+}
+#weather{
+    position : absolute;
+    top : 10px;
+    right : 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color : white;
+}
+#quotes{
+    position : absolute;
+    width : 100%;
+    bottom : 20px;
+    text-align: center;
+    z-index: 10;
+    color : white;
+    font-family: 'Lora', serif;
+}
+#author{
+    display : block;
+}
+button{
+    background-color: transparent;
+    border : none;
+}
